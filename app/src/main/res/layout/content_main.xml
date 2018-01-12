@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.web.pimenlabs.iak.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/l1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sampul"
+                    android:layout_width="fill_parent"
+                    android:layout_height="196dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sampul" />
+
+                <Button
+                    android:id="@+id/btn_daftar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#ffff"
+
+                    android:layout_alignBottom="@+id/sampul"
+                    android:layout_centerHorizontal="true"
+                    android:background="#257A97"
+                    android:text="@string/btn_daftar" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/logo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name"
+                            android:layout_toRightOf="@+id/person_photo"
+                            android:layout_alignParentTop="true"
+                            android:textSize="10sp"
+                            android:text="Indonesia Android Kejar adalah program yang diinisiasi oleh Google Developers untuk mengasah kemampuan developer Indonesia dalam mengembangkan aplikasi mobile. Program berbasis komunitas ini menggunakan materi online dari Udacity yang dipadukan dengan kelompok belajar secara offline (study group)."
+
+                            />
+
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yang baru dari Indonesia Android Kejar Batch 3:"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sekarang, di 10 kota!"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/Container1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:id="@+id/ImageView011"
+                        android:layout_width="fill_parent"
+                        android:layout_height="166dp"
+                        android:src="@drawable/kota" >
+                    </ImageView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Train the Trainers!"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Khusus Fasilitator)"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/kf" />
+
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name1"
+                            android:layout_toRightOf="@+id/person_photo1"
+                            android:layout_alignParentTop="true"
+                            android:textSize="10sp"
+                            android:text="Sesi ini mempersiapkan kamu dengan keahlian dan materi yang tepat untuk menjalankan study group secara lancar."
+                            />
+
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Success Stories"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name2"
+                            android:text="Janice Kartika (Programmer Android, HarukaEdu)"
+                            android:layout_toRightOf="@+id/person_photo2"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age"
+                            android:textSize="10sp"
+                            android:text="Janice bergabung sebagai peserta IAK Batch 1, lalu melamar sebagai fasilitator di Batch 2. Setelah menghadiri acara Job Fair IAK, ia diajak bergabung oleh HarukaEdu, sebuah startup alumni Launchpad Accelerator, untuk menjadi developer Android di sana."
+                            android:layout_toRightOf="@+id/person_photo2"
+                            android:layout_below="@+id/person_name2"
+                            />
+
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name3"
+                            android:text="Ibnu Sina Wardy (Google Developers Expert Android)"
+                            android:layout_toRightOf="@+id/person_photo3"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age3"
+                            android:textSize="10sp"
+                            android:text="Ibnu adalah Google Developer Expert di Android dan juga seorang CEO dari sebuah perusahaan pengembangan aplikasi, GITS Indonesia, yang merupakan bagian dari Google Developers Agency Program. Di IAK, ia menjadi fasilitator untuk tingkat Intermediate. Setelahnya, ia merekrut 5 orang dari peserta IAK serta fasilitator tingkat Beginner untuk bergabung ke perusahaannya."
+                            android:layout_toRightOf="@+id/person_photo3"
+                            android:layout_below="@+id/person_name3"
+                            />
+
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name4"
+                            android:text="Winni Septiani Lubis (Developer Android, Ice House)"
+                            android:layout_toRightOf="@+id/person_photo4"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age4"
+                            android:textSize="10sp"
+                            android:text="Winni adalah developer Android di Ice House, salah satu agensi yang tergabung dalam Google Developers Certified Agency Program. Ia berkontribusi secara aktif di IAK dengan menjadi fasilitator untuk study group khusus perempuan. Ia pun kemudian diundang menjadi pembicara di acara Women Techmakers Jakarta untuk bercerita mengenai tantangan perempuan di industri  teknologi."
+                            android:layout_toRightOf="@+id/person_photo4"
+                            android:layout_below="@+id/person_name4"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name5"
+                            android:text="Andi Pradana Ardiansyah (Mahasiswa, Universitas Nusantara PGRI)"
+                            android:layout_toRightOf="@+id/person_photo5"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age5"
+                            android:textSize="10sp"
+                            android:text="Andi yang berasal dari Kediri harus menaiki bis selama 4 jam untuk tiba di Malang setiap kali menghadiri study group IAK. Setelah menyelesaikan study group, ia mendirikan Kediri Android Community untuk berbagi ilmu pada para penggemar teknologi dan pemrograman di Kediri."
+                            android:layout_toRightOf="@+id/person_photo5"
+                            android:layout_below="@+id/person_name5"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name6"
+                            android:text="Adinda Febrianti Eka (Lulusan SMK jurusan Software Engineering)"
+                            android:layout_toRightOf="@+id/person_photo6"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age6"
+                            android:textSize="10sp"
+                            android:text="Walaupun baru berumur 19 tahun, Adinda adalah seorang guru pemrograman di Pesantren IDN Madinatul Ilmi. Ia mendaftarkan diri dan mengajak siswa di kelasnya untuk jadi peserta IAK Batch 2. Sekarang, siswanya telah memiliki aplikasi buatan mereka sendiri di Google Play Store. Tak hanya itu, ia pun berencana untuk mengadakan workshop Android untuk para murid di sekolahnya."
+                            android:layout_toRightOf="@+id/person_photo6"
+                            android:layout_below="@+id/person_name6"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara jadi peserta di Indonesia Android Kejar?"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo7"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s6" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name7"
+                            android:text="1. Pelajari kursus online di Udacity\nTonton dan catat hal penting dari video pemaparan materi yang dibawakan dengan cara yang menyenangkan!\n\n2. Ikuti study group\nDiskusikan tantangan yang kamu hadapi bersama fasilitator dan teman satu study group-mu. Nggak cuma dapat ilmu, kamu juga dapat teman baru!\n\n3. Kerjakan final project\nTerapkan ilmu yang kamu pelajari dari IAK menjadi sebuah aplikasi Android yang dapat kamu banggakan.\n\n4. Rayakan kesukesanmu di Awarding\nKirim cerita pengalamanmu selama mengikuti IAK. Peserta terbaik akan diundang untuk mengikuti prosesi kelulusan bersama para fasilitator pilihan."
+                            android:layout_toRightOf="@+id/person_photo7"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bagaimana cara jadi fasilitator di Indonesia Android Kejar?"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo8"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/s7" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name8"
+                            android:text="1. Kuasai inti dari kursus online di Udacity\nPelajari dan temukan cara terbaik untuk memaparkan materi pada para peserta kelas belajar kamu.\n\n2. Persiapkan study group\nTentukan waktu dan tempat. Hubungi peserta study group-mu. Pastikan bahan pembelajaran sudah lengkap.\n\n3. Jalankan study group\nBimbing peserta untuk memahami materi. Jawab rasa keingintahuan mereka. Pacu mereka untuk jadi lebih baik.\n\n4. Rayakan kesukesanmu di Awarding\nSaatnya berjejaring dan berbagi cerita pengalaman selama memimpin study group. Jadilah inspirasi bagi developer lainnya. "
+                            android:layout_toRightOf="@+id/person_photo8"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mana level yang cocok untuk kamu?"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo9"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"                            android:layout_marginRight="5dp"
+
+                            android:src="@drawable/s8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name9"
+                            android:text="Kelas Beginner"
+                            android:layout_toRightOf="@+id/person_photo9"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age9"
+                            android:textSize="10sp"
+                            android:text="Waktu pelaksanaan study group: 2 sesi, 8 jam/sesi\n\nKelas ini cocok bagi yang ingin membuat aplikasi Android, namun tidak memiliki pengalaman pemrograman apapun sebelumnya."
+                            android:layout_toRightOf="@+id/person_photo9"
+                            android:layout_below="@+id/person_name9"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo10"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"                            android:layout_marginRight="5dp"
+
+                            android:src="@drawable/s9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name10"
+                            android:text="Kelas Intermediate"
+                            android:layout_toRightOf="@+id/person_photo10"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age10"
+                            android:textSize="10sp"
+                            android:text="Waktu pelaksanaan study group: 4 sesi, 4 jam/sesi\n\nKelas ini hanya dapat diambil oleh peserta yang memiliki pengalaman minimal 1 tahun pemrograman dalam Java atau bahasa pemrograman  berbasis objek lainnya."
+                            android:layout_toRightOf="@+id/person_photo10"
+                            android:layout_below="@+id/person_name10"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo11"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"                             android:layout_marginRight="5dp"
+
+                            android:src="@drawable/s10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name11"
+                            android:text="Kelas Advanced"
+                            android:layout_toRightOf="@+id/person_photo11"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age11"
+                            android:textSize="10sp"
+                            android:text="Waktu pelaksanaan study group: 4 sesi, 4 jam/sesi\n\nKelas ini hanya dapat diambil oleh peserta yang memiliki pengalaman pemrograman Java minimal 3 tahun dan pernah mengembangkan aplikasi Android sebelumnya."
+                            android:layout_toRightOf="@+id/person_photo11"
+                            android:layout_below="@+id/person_name11"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Periode pelaksanaan"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IAK berlangsung sepanjang tahun dan dibagi dalam beberapa periode"
+                android:layout_marginLeft="10dp"
+                />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/Container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        android:id="@+id/ImageView01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/s11" >
+                    </ImageView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apa yang akan kamu dapatkan?"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo12"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s12" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name12"
+                            android:text="Bagi Fasilitator"
+                            android:layout_toRightOf="@+id/person_photo12"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age12"
+                            android:textSize="10sp"
+                            android:text="* Kesempatan untuk berkolaborasi lebih lanjut dengan developer lainnya dan Google\n* Terhubung dengan para developer di komunitas\n* Kesempatan mendapatkan swag eksklusif dari Google\n* Kesempatan Mendapatkan Sertifikat dari Indonesia Android Kejar"
+                            android:layout_toRightOf="@+id/person_photo12"
+                            android:layout_below="@+id/person_name12"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berbagi ilmu dengan para developer di sekitarmu. Berikan inspirasi untuk mereka agar mampu berkarya dan bersama tingkatan kualitas pemrograman di Indonesia."
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_daftar_fasilitator"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textColor="#ffff"
+
+                android:layout_alignBottom="@+id/sampul"
+                android:layout_centerHorizontal="true"
+                android:background="#257A97"
+                android:text="Daftar Sebagai Fasilitator" />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo13"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s13" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name13"
+                            android:text="Bagi Peserta"
+                            android:layout_toRightOf="@+id/person_photo13"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age13"
+                            android:textSize="10sp"
+                            android:text="* Memperkaya kemampuan pemrograman Android langsung bersama fasilitator dengan modul kursus online Udacity\n* Terhubung dengan para developer di komunitas\n* Kesempatan mendapatkan swag eksklusif dari Google\n* Kesempatan mendapatkan sertifikat dari Indonesia Android Kejar"
+                            android:layout_toRightOf="@+id/person_photo13"
+                            android:layout_below="@+id/person_name13"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belajar bersama dengan para developer lain di kotamu, perluas jejaring, dan buktikan bahwa dengan kolaborasi kita bisa mencapai tingkat keahlian yang lebih tinggi."
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_daftar_peserta"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textColor="#ffff"
+
+                android:layout_alignBottom="@+id/sampul"
+                android:layout_centerHorizontal="true"
+                android:background="#257A97"
+                android:text="Daftar Sebagai Peserta" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

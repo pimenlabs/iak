@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.web.pimenlabs.iak.Daftar"
+    tools:showIn="@layout/activity_daftar">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo12"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s12" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name12"
+                            android:text="Bagi Fasilitator"
+                            android:layout_toRightOf="@+id/person_photo12"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age12"
+                            android:textSize="10sp"
+                            android:text="* Kesempatan untuk berkolaborasi lebih lanjut dengan developer lainnya dan Google\n* Terhubung dengan para developer di komunitas\n* Kesempatan mendapatkan swag eksklusif dari Google\n* Kesempatan Mendapatkan Sertifikat dari Indonesia Android Kejar"
+                            android:layout_toRightOf="@+id/person_photo12"
+                            android:layout_below="@+id/person_name12"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berbagi ilmu dengan para developer di sekitarmu. Berikan inspirasi untuk mereka agar mampu berkarya dan bersama tingkatan kualitas pemrograman di Indonesia."
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_daftar_fasilitator"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textColor="#ffff"
+
+                android:layout_alignBottom="@+id/sampul"
+                android:layout_centerHorizontal="true"
+                android:background="#257A97"
+                android:text="Daftar Sebagai Fasilitator" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo13"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s13" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name13"
+                            android:text="Bagi Peserta"
+                            android:layout_toRightOf="@+id/person_photo13"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age13"
+                            android:textSize="10sp"
+                            android:text="* Memperkaya kemampuan pemrograman Android langsung bersama fasilitator dengan modul kursus online Udacity\n* Terhubung dengan para developer di komunitas\n* Kesempatan mendapatkan swag eksklusif dari Google\n* Kesempatan mendapatkan sertifikat dari Indonesia Android Kejar"
+                            android:layout_toRightOf="@+id/person_photo13"
+                            android:layout_below="@+id/person_name13"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belajar bersama dengan para developer lain di kotamu, perluas jejaring, dan buktikan bahwa dengan kolaborasi kita bisa mencapai tingkat keahlian yang lebih tinggi."
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_daftar_peserta"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textColor="#ffff"
+
+                android:layout_alignBottom="@+id/sampul"
+                android:layout_centerHorizontal="true"
+                android:background="#257A97"
+                android:text="Daftar Sebagai Peserta" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

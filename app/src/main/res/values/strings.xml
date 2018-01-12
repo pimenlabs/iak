@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Indonesia Android Kejar</string>
+    <string name="title_activity_tetang">Tetang</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="btn_daftar">Daftar</string>
+    <string name="btn_daftar_fasilltator">DAFTAR JADI FASILITATOR</string>
+    <string name="btn_daftar_peserta">DAFTAR JADI PESERTA</string>
+    <string name="title_activity_daftar">Daftar</string>
+    <string name="title_activity_daftar_fasilitator">Daftar Jadi Fasilitator</string>
+    <string name="title_activity_daftar_peserta">Daftar Jadi Peserta</string>
+    <string name="title_activity_about_iak">About </string>
+    <string name="title_activity_faq">FAQ </string>
+    <string name="title_activity_program">Program </string>
+    <string name="title_activity_galery">Galery</string>
+    <string name="title_activity_faq1">FAQ</string>
+    <string name="title_activity_faq2">FAQ</string>
+    <string name="title_activity_faq3">FAQ</string>
+    <string name="title_activity_faq4">FAQ</string>
+    <string name="title_activity_faq5">FAQ</string>
+    <string name="title_activity_faq6">FAQ</string>
+    <string name="title_activity_faq7">FAQ</string>
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.web.pimenlabs.iak"
+    android:versionCode="11001"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tetang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Daftar"
+            android:label="@string/title_activity_daftar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".daftar_fasilitator"
+            android:label="@string/title_activity_daftar_fasilitator"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".daftar_peserta"
+            android:label="@string/title_activity_daftar_peserta"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".about_iak"
+            android:label="@string/title_activity_about_iak"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq"
+            android:label="@string/title_activity_faq"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".program"
+            android:label="@string/title_activity_program"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Galery"
+            android:label="@string/title_activity_galery"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq1"
+            android:label="@string/title_activity_faq1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq2"
+            android:label="@string/title_activity_faq2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq3"
+            android:label="@string/title_activity_faq3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq4"
+            android:label="@string/title_activity_faq4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq5"
+            android:label="@string/title_activity_faq5"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq6"
+            android:label="@string/title_activity_faq6"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".faq7"
+            android:label="@string/title_activity_faq7"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

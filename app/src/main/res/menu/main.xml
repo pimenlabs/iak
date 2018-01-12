@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_program"
+        android:orderInCategory="100"
+        android:title="Program"/>
+    <item
+        android:id="@+id/action_galery"
+        android:orderInCategory="100"
+        android:title="Galery"/>
+    <item
+        android:id="@+id/action_about_iak"
+        android:orderInCategory="100"
+        android:title="About IAK"/>
+    <item
+        android:id="@+id/action_faq"
+        android:orderInCategory="100"
+        android:title="FAQ"/>
+    <item
+        android:id="@+id/action_addItem"
+        android:orderInCategory="100"
+        android:title="Pembuat"/>
+
+</menu>

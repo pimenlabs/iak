@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.web.pimenlabs.iak.Galery"
+    tools:showIn="@layout/activity_galery">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sampul"
+                    android:layout_width="fill_parent"
+                    android:layout_height="196dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/g1" />
+                <ImageView
+                    android:id="@+id/sampul1"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="196dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/g2" />
+                <ImageView
+                    android:id="@+id/sampul2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="196dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/g3" />
+
+                <ImageView
+                    android:id="@+id/sampul3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="196dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/g4" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+</android.support.constraint.ConstraintLayout>

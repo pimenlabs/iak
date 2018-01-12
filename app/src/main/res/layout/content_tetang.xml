@@ -1,0 +1,112 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="55dp"
+            android:id="@+id/l2"
+            android:orientation="vertical"
+            android:padding="20dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:id="@+id/foto"
+                android:src="@drawable/foto"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center">
+
+            </ImageView>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Nama"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="start"
+
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:singleLine="true"
+                android:hint="Friman"
+                android:editable="false"
+                android:visibility="visible"/>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pekerjaan"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="start"
+
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/jabatan"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:singleLine="true"
+                android:hint="Freelance"
+                android:editable="false"
+                android:visibility="visible"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Contact"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="start"
+
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:singleLine="true"
+                android:editable="false"
+                android:hint="085299911570" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

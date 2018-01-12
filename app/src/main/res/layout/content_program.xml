@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.web.pimenlabs.iak.program"
+    tools:showIn="@layout/activity_program">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Periode pelaksanaan"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada 2017, IAK berlangsung sepanjang tahun dan dibagi dalam beberapa periode:"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/Container"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/s11" >
+                </ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo9"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s8" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name9"
+                            android:text="Kelas Beginner"
+                            android:layout_toRightOf="@+id/person_photo9"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age9"
+                            android:textSize="10sp"
+                            android:text="Waktu pelaksanaan study group: 2 sesi, 8 jam/sesi\n\nKelas ini cocok bagi yang ingin membuat aplikasi Android, namun tidak memiliki pengalaman pemrograman apapun sebelumnya."
+                            android:layout_toRightOf="@+id/person_photo9"
+                            android:layout_below="@+id/person_name9"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo10"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name10"
+                            android:text="Kelas Intermediate"
+                            android:layout_toRightOf="@+id/person_photo10"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age10"
+                            android:textSize="10sp"
+                            android:text="Waktu pelaksanaan study group: 4 sesi, 4 jam/sesi\n\nKelas ini hanya dapat diambil oleh peserta yang memiliki pengalaman minimal 1 tahun pemrograman dalam Java atau bahasa pemrograman  berbasis objek lainnya."
+                            android:layout_toRightOf="@+id/person_photo10"
+                            android:layout_below="@+id/person_name10"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/person_photo11"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/s10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_name11"
+                            android:text="Kelas Advanced"
+                            android:layout_toRightOf="@+id/person_photo11"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:textSize="10sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/person_age11"
+                            android:textSize="10sp"
+                            android:text="Waktu pelaksanaan study group: 4 sesi, 4 jam/sesi\n\nKelas ini hanya dapat diambil oleh peserta yang memiliki pengalaman pemrograman Java minimal 3 tahun dan pernah mengembangkan aplikasi Android sebelumnya."
+                            android:layout_toRightOf="@+id/person_photo11"
+                            android:layout_below="@+id/person_name11"
+                            />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
